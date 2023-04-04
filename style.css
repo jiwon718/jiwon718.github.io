@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* name */
+.name {
+    text-align: center;
+}
+
+
+/* description */
+.description {
+    text-align: center;
+}
+
+.description-image {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.description-image img {
+    width: 100%;
+    height: auto;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+
+/* bucketList */
+.bucketList-list li {
+    margin: 5px 0;
+}
+
+
+/* github */
+.github {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.github a:link, .github a:visited {
+    text-decoration: none;
+    color: black;
+}
